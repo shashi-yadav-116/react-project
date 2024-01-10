@@ -1,4 +1,5 @@
 {
+  "home": "https://shashi-yadav-116.github.io/react-project",
   "name": "project",
   "version": "0.1.0",
   "private": true,
@@ -22,6 +23,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predepoly":"npm run build",
+    "depoly":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
